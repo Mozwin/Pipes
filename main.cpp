@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     level.loadFromXML("c:\\Users\\Csenge\\Desktop\\Pipes\\level2_solved.xml");
     solver.setLevel(&level);
     Level* s = solver.getNextSolution();
-    s->saveToPNG("c:\\Users\\PZsol\\Desktop\\Pipes\\output.png");
+    s->saveToPNG("c:\\Users\\Csenge\\Desktop\\Pipes\\output.png"); // elérési útvonalat obvi írjátok át
     if (tester.test(s, "red")) {
         qDebug() << "Jó!";
     } else {
