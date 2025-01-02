@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     Level level;
     Tester tester;
     Solver solver;
-    level.loadFromXML("c:\\Users\\PZsol\\Desktop\\Pipes\\level2_solved.xml");
+    level.loadFromXML("c:\\Users\\Csenge\\Desktop\\Pipes\\level2_solved.xml");
     solver.setLevel(&level);
     Level* s = solver.getNextSolution();
     s->saveToPNG("c:\\Users\\PZsol\\Desktop\\Pipes\\output.png");
