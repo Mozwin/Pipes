@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level width="8" height="7">
+    <fields>
+        <field type="pipe" up="true" down="false" left="true" right="false" count="12"/>
+	    <field type="pipe" up="true" down="true" left="false" right="false" count="14"/>
+    </fields>
+    <gameobjects>
+        <gameobject type="source" color="green" x="4" y="2" up="false" down="false" left="false" right="true"/>
+        <gameobject type="consumer" color="green" x="3" y="2" up="false" down="false" left="true" right="false"/>
+	<gameobject type="source" color="red" x="4" y="3" up="false" down="false" left="false" right="true"/>
+        <gameobject type="consumer" color="red" x="3" y="3" up="false" down="false" left="true" right="false"/>
+	<gameobject type="source" color="yellow" x="4" y="4" up="false" down="false" left="false" right="true"/>
+        <gameobject type="consumer" color="yellow" x="3" y="4" up="false" down="false" left="true" right="false"/>
+    </gameobjects>
+    <phases>
+        <phase color="green"/>
+	<phase color="red"/>
+	<phase color="yellow"/>
+    </phases>
+</level>

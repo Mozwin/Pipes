@@ -1,0 +1,24 @@
+<level width="4" height="3">
+<fields>
+<field type="source" color="green" up="false" down="true" left="true" right="true" count="1"/>
+<field type="source" color="green" up="false" down="true" left="false" right="true" count="1"/>
+<field type="source" color="blue" up="false" down="true" left="true" right="true" count="1"/>
+<field type="source" color="blue" up="false" down="true" left="false" right="true" count="1"/>
+<field type="source" color="red" up="false" down="true" left="true" right="true" count="1"/>
+<field type="source" color="red" up="false" down="true" left="false" right="true" count="1"/>
+</fields>
+<gameobjects>
+<gameobject type="consumer" color="green" x="2" y="0" up="false" down="false" left="false" right="true"/>
+<gameobject type="consumer" color="green" x="3" y="1" up="true" down="false" left="false" right="false"/>
+<gameobject type="consumer" color="red" x="1" y="0" up="false" down="true" left="false" right="false"/>
+<gameobject type="consumer" color="red" x="0" y="1" up="false" down="false" left="false" right="true"/>
+<gameobject type="consumer" color="blue" x="2" y="1" up="false" down="true" left="false" right="false"/>
+<gameobject type="consumer" color="blue" x="1" y="2" up="false" down="false" left="false" right="true"/>
+<gameobject type="consumer" color="blue" x="3" y="2" up="false" down="false" left="true" right="false"/>
+</gameobjects>
+<phases>
+<phase color="green"/>
+<phase color="blue"/>
+<phase color="red"/>
+</phases>
+</level>

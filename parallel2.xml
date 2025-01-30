@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level width="2" height="2">
+    <fields>
+        <field type="pipe" up="true" down="false" left="true" right="false" count="2"/>
+    </fields>
+    <gameobjects>
+        <gameobject type="source" color="cyan" x="1" y="0" up="false" down="true" left="true" right="false"/>
+	<gameobject type="consumer" color="cyan" x="0" y="1" up="true" down="false" left="false" right="true"/>
+    </gameobjects>
+    <phases>
+        <phase color="cyan"/>
+    </phases>
+</level>
